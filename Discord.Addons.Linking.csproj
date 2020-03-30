@@ -1,0 +1,19 @@
+<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <TargetFramework>netstandard2.0</TargetFramework>
+    <GeneratePackageOnBuild>true</GeneratePackageOnBuild>
+    <Description>An extension for Discord.Net that adds linkable messages.</Description>
+    <PackageIcon>Icon.png</PackageIcon>
+    <PackageIconUrl />
+    <PackageTags>discord, discord.net, discord.addons</PackageTags>
+    <Authors>AbnerSquared</Authors>
+    <Company />
+  </PropertyGroup>
+
+  <ItemGroup>
+    <PackageReference Include="Discord.Net.Core" Version="2.1.1" />
+    <PackageReference Include="Discord.Net.WebSocket" Version="2.1.1" />
+  </ItemGroup>
+
+</Project>
