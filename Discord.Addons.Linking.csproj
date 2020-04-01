@@ -1,19 +1,36 @@
-<Project Sdk="Microsoft.NET.Sdk">
+﻿<Project Sdk="Microsoft.NET.Sdk">
 
   <PropertyGroup>
     <TargetFramework>netstandard2.0</TargetFramework>
     <GeneratePackageOnBuild>true</GeneratePackageOnBuild>
     <Description>An extension for Discord.Net that adds linkable messages.</Description>
+    <Title>Discord.Addons.Linking</Title>
+    <PackageId>Discord.Addons.Linking</PackageId>
     <PackageIcon>Icon.png</PackageIcon>
-    <PackageIconUrl />
+    <PackageIconUrl>Icon.png</PackageIconUrl>
     <PackageTags>discord, discord.net, discord.addons</PackageTags>
     <Authors>AbnerSquared</Authors>
-    <Company />
+    <NeutralLanguage>en-US</NeutralLanguage>
+    <PackageLicenseFile>LICENSE.txt</PackageLicenseFile>
+    <PackageLicenseExpression></PackageLicenseExpression>
+    <PackageProjectUrl>https://github.com/AbnerSquared/Discord.Addons.Linking</PackageProjectUrl>
+    <RepositoryUrl>https://github.com/AbnerSquared/Discord.Addons.Linking</RepositoryUrl>
   </PropertyGroup>
 
   <ItemGroup>
     <PackageReference Include="Discord.Net.Core" Version="2.1.1" />
     <PackageReference Include="Discord.Net.WebSocket" Version="2.1.1" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <None Include="marketing\Icon.png">
+      <Pack>True</Pack>
+      <PackagePath></PackagePath>
+    </None>
+    <None Include="LICENSE.txt">
+      <Pack>True</Pack>
+      <PackagePath></PackagePath>
+    </None>
   </ItemGroup>
 
 </Project>

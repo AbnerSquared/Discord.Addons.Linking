@@ -15,7 +15,7 @@ namespace Discord.Addons.Linking
 
         IReadOnlyList<IUserMessage> Subscribers { get; }
 
-        Task<IUserMessage> CreateAsync(IMessageChannel channel, RequestOptions options = null);
+        Task<IUserMessage> CloneAsync(IMessageChannel channel, RequestOptions options = null);
 
         Task<bool> AddAsync(IUserMessage message, RequestOptions options);
 

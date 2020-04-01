@@ -55,9 +55,9 @@ namespace Discord.Addons.Linking
         public bool Disposed { get; protected set; } = false;
 
         /// <summary>
-        /// Creates and subscribes a new message for the specified channel.
+        /// Creates and subscribes a new copy of the parent message for the specified channel.
         /// </summary>
-        public async Task<IUserMessage> CreateAsync(IMessageChannel channel, RequestOptions options = null)
+        public async Task<IUserMessage> CloneAsync(IMessageChannel channel, RequestOptions options = null)
         {
             IUserMessage subscriber = await channel.SendMessageAsync(Source.Content, Source.IsTTS, MessageContent.GetRichEmbed(Source)?.Build(), options);
 

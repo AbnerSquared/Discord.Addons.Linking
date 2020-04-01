@@ -1,3 +1,5 @@
 ﻿bin/
 obj/
 v16/
+DesignTimeBuild/
+*.config
