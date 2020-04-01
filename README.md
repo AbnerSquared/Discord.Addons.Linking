@@ -1,10 +1,12 @@
+<img src="./marketing/Icon.png" width="64" height="64" style="display: inline-block; float: right;"/>
+
 # Discord.Addons.Linking
 An extension for Discord.Net that adds linkable messages.
 
 # Purpose
 This extension was made primarily to enable the synchronization of multiple messages with the exact same content at once. This allows you to update a single parent message, which will then automatically update all linked children.
 
-# Usage
+# Additions
 
 ### LinkedMessage
 The `LinkedMessage` binds to messages that are not sent by the bot, and are instantly updated whenever that message is updated.
@@ -57,3 +59,6 @@ When this method is called, it will attempt to remove and unlink the specified m
 await linkedMessage.DeleteAsync();
 ```
 This method will delete a `LinkedMessage`. The way a `LinkedMessage` is deleted is entirely based on the `LinkDeleteHandling` flag you set. If the specified flag is `LinkDeleteHandling.All`, every message that the `LinkedMessage` handles is deleted. This includes all children alongside the parent. Likewise, if the specified flag is `LinkDeleteHandling.Source`, all children within a `LinkedMessage` will be updated to display `[Original Message Deleted]`, while the source of the `LinkedMessage` is deleted.
+
+# Credits
+[**Discord.Net**](https://github.com/discord-net/Discord.Net) for the [original logo design](https://github.com/discord-net/Discord.Net/blob/dev/docs/marketing/logo/PackageLogo.png).
