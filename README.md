@@ -1,5 +1,3 @@
-<img src="./marketing/Icon.png" width="64" height="64" style="display: inline-block; float: right;"/>
-
 # Discord.Addons.Linking
 An extension for Discord.Net that adds linkable messages.
 
