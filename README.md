@@ -37,7 +37,7 @@ This method is identical to the existing `ModifyAsync` methods that exist on `Di
 
 ## Creating a child for a `LinkedMessage`
 ```cs
-IUserMessage child = await linkedMessage.CreateAsync(Context.Channel);
+IUserMessage child = await linkedMessage.CloneAsync(Context.Channel);
 ```
 This method initializes a new message to the specified `IChannel` that will automatically update whenever the parent message is updated. Likewise with other `Discord` methods, there is an optional parameter for `RequestOptions`. This method can be called multiple times in the same channel, but it will simply just initialize new children messages.
 
