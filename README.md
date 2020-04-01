@@ -1,4 +1,8 @@
+<img src="./marketing/Icon.png" width="64" height="64" />
+
 # Discord.Addons.Linking
+[![NuGet](https://img.shields.io/nuget/vpre/Discord.Addons.Linking.svg?maxAge=2592000?style=plastic)](https://www.nuget.org/packages/Discord.Addons.Linking)
+
 An extension for Discord.Net that adds linkable messages.
 
 # Purpose
