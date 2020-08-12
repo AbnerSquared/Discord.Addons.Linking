@@ -3,7 +3,7 @@
 # Discord.Addons.Linking
 [![NuGet](https://img.shields.io/nuget/vpre/Discord.Addons.Linking.svg?maxAge=2592000?style=plastic)](https://www.nuget.org/packages/Discord.Addons.Linking)
 
-An extension for Discord.Net that adds linkable messages.
+An extension for Discord.Net that can synchronize messages.
 
 # Purpose
 This extension was made primarily to enable the synchronization of multiple messages with the exact same content at once. This allows you to update a single parent message, which will then automatically update all linked children.
