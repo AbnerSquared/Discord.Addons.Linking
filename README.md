@@ -1,5 +1,4 @@
-<img src="./marketing/Icon.png" width="64" height="64" />
-
+<img src="./marketing/Icon.png" width="64" height="64" /><a href="https://github.com/AbnerSquared/Discord.Addons.Collectors"><img src="https://raw.githubusercontent.com/AbnerSquared/Discord.Addons.Collectors/master/marketing/Icon.png" width="32" height="32" /></a><br/>
 # Discord.Addons.Linking
 > See also: [**Discord.Addons.Collectors**](https://github.com/AbnerSquared/Discord.Addons.Collectors)<br/>
 
